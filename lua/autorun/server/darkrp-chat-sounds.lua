@@ -24,9 +24,9 @@ local function loadchatsounds()
 	DarkRP.setChatSound("trust", {"republic/chatsounds/i-dont-trust-like-that.ogg"})
 	
 	--Allahu Akbar
-	DarkRP.setChatSound("allah", {"republic/chatsounds/allahu-akbar.ogg"})
-	DarkRP.setChatSound("allahu", {"republic/chatsounds/allahu-akbar.ogg"})
-	DarkRP.setChatSound("akbar", {"republic/chatsounds/allahu-akbar.ogg"})
+	DarkRP.setChatSound("allah", {"republic/chatsounds/allahu-akbar.ogg", "republic/chatsounds/allahu-akbar-2.ogg"})
+	DarkRP.setChatSound("allahu", {"republic/chatsounds/allahu-akbar.ogg", "republic/chatsounds/allahu-akbar-2.ogg"})
+	DarkRP.setChatSound("akbar", {"republic/chatsounds/allahu-akbar.ogg", "republic/chatsounds/allahu-akbar-2.ogg"})
 end
 
 hook.Add("loadCustomDarkRPItems", "RepublicChatSounds", loadchatsounds)
